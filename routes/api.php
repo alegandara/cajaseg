@@ -19,7 +19,9 @@ use App\Http\Controllers\FileController;
 
 //Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //    return $request->user();
-//});
+//});   .........
+
+
 
 
 Route::get('/facturas', [FacturaController::class, 'show']);
